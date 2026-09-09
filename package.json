@@ -1,0 +1,27 @@
+{
+  "name": "mern-stack-real-estate-market-place",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server/index.js",
+    "start": "node server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mehreenramzan721/MERN-STACK-REAL-ESTATE-MARKET-PLACE.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/mehreenramzan721/MERN-STACK-REAL-ESTATE-MARKET-PLACE/issues"
+  },
+  "homepage": "https://github.com/mehreenramzan721/MERN-STACK-REAL-ESTATE-MARKET-PLACE#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "nodemon": "^3.1.14"
+  }
+}
