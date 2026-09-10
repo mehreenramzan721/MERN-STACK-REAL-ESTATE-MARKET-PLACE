@@ -21,7 +21,9 @@
   },
   "homepage": "https://github.com/mehreenramzan721/MERN-STACK-REAL-ESTATE-MARKET-PLACE#readme",
   "dependencies": {
+    "dotenv": "^17.4.2",
     "express": "^5.2.1",
+    "mongoose": "^9.9.5",
     "nodemon": "^3.1.14"
   }
 }
