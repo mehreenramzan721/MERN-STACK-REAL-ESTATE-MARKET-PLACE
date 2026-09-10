@@ -3,8 +3,12 @@ import mongoose from "mongoose";
 import dotenv from "dotenv";
 // importing the routes
 import userRoute from "./routes/userRoute.js";
+import authRoute from "./routes/authRoute.js";
 const app = express();
 dotenv.config();
+
+// to allow send json data to be send through browser
+app.use(express.json());
 
 // mongoose connection
 mongoose
@@ -17,6 +21,7 @@ mongoose
   });
 
 app.use("/api/user", userRoute);
+app.use("/api/auth", authRoute);
 
 //loading the server
 app.listen(2000, () => {
